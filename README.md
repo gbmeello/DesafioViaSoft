@@ -3,7 +3,7 @@ Desafio Tecnico para concorrer a Vaga de Desenvolvedor Pleno na Empresa ViaSoft.
 Objetivo
 Imagine (sem realizar a integração) que você precisa enviar e-mail mediante plataformas como AWS e OCI. 
 O teste consiste em criar uma aplicação REST com endpoint que recebe dados para envio de email, com apenas uma requisição, sem alterar o objeto de entrada, 
-dependendo da configuração setada em application.properties o objeto deve ser adaptado para novas classes, também deve ser serializado e impresso no console
+dependendo da configuração setada em application.properties o objeto deve ser adaptado para novas classes, também deve ser serializado e impresso no console.
 
 Ambiente de desenvolvimento Solicitada
 Java 17, Maven e a lib Spring Web. Pode ser utilizado outras libs em conjunto.
