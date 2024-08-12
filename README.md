@@ -93,3 +93,16 @@ tudo isso em uma requisição POST.
 
 7 - Implementamos a Classe de TEST do Service, para realizar os Testes de Integração.
 
+
+--------------------------------XXXX------------------------------------------
+
+Como Executar o projeto.
+
+1 - Clone o projeto do repositorio: https://github.com/gbmeello/DesafioViaSoft.git
+
+2 - Abra o projeto com sua IDE.
+
+3 - Abra o pom.xml e de um reload com o maven para realizar o download das dependecias.
+
+4 - Execute o RUN na classe Principal.
+
