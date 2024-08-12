@@ -27,7 +27,7 @@ public class EmailServiceTest {
     private String mailIntegration;
 
     @Test
-    void testProcessEmailWithAwsIntegration() throws Exception {
+    void testSendEmailWithAwsIntegration() throws Exception {
         // Arrange
         EmailDTO emailDTO = new EmailDTO();
         emailDTO.setRecipient(String.valueOf(List.of("recipient@example.com")));
@@ -53,7 +53,7 @@ public class EmailServiceTest {
     }
 
     @Test
-    void testProcessEmailWithOciIntegration() throws Exception {
+    void testSendEmailWithOciIntegration() throws Exception {
         // Arrange
         EmailDTO emailDTO = new EmailDTO();
         emailDTO.setRecipient(String.valueOf(List.of("recipient@example.com")));
